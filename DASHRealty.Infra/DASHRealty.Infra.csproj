@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DASHRealty.Application\DASHRealty.Application.csproj" />
+    <ProjectReference Include="..\DASHRealty.Domain.Core\DASHRealty.Domain.Core.csproj" />
+    <ProjectReference Include="..\DASHRealty.Domain.Services\DASHRealty.Domain.Services.csproj" />
+  </ItemGroup>
+
+</Project>

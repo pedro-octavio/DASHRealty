@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DASHRealty.Domain", "DASHRealty.Domain\DASHRealty.Domain.csproj", "{C10C6EB2-403A-497D-92EB-A25CA17E9F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DASHRealty.Domain.Core", "DASHRealty.Domain.Core\DASHRealty.Domain.Core.csproj", "{78D6CA44-C528-4C6D-877E-73549C27A272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DASHRealty.Domain.Services", "DASHRealty.Domain.Services\DASHRealty.Domain.Services.csproj", "{4B763F0D-BAD9-42B3-817B-2352DE1F2D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DASHRealty.Infra", "DASHRealty.Infra\DASHRealty.Infra.csproj", "{6B417294-6E62-47ED-96A1-062FE90CC22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DASHRealty.Application", "DASHRealty.Application\DASHRealty.Application.csproj", "{D25A42EC-8D8F-459F-A2FA-230E17E918CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DASHRealty.API", "DASHRealty.API\DASHRealty.API.csproj", "{7EF4C56C-3A98-4CA9-94E4-02888BCCE690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C10C6EB2-403A-497D-92EB-A25CA17E9F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10C6EB2-403A-497D-92EB-A25CA17E9F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10C6EB2-403A-497D-92EB-A25CA17E9F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10C6EB2-403A-497D-92EB-A25CA17E9F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D6CA44-C528-4C6D-877E-73549C27A272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D6CA44-C528-4C6D-877E-73549C27A272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D6CA44-C528-4C6D-877E-73549C27A272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D6CA44-C528-4C6D-877E-73549C27A272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B763F0D-BAD9-42B3-817B-2352DE1F2D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B763F0D-BAD9-42B3-817B-2352DE1F2D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B763F0D-BAD9-42B3-817B-2352DE1F2D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B763F0D-BAD9-42B3-817B-2352DE1F2D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B417294-6E62-47ED-96A1-062FE90CC22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B417294-6E62-47ED-96A1-062FE90CC22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B417294-6E62-47ED-96A1-062FE90CC22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B417294-6E62-47ED-96A1-062FE90CC22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25A42EC-8D8F-459F-A2FA-230E17E918CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25A42EC-8D8F-459F-A2FA-230E17E918CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25A42EC-8D8F-459F-A2FA-230E17E918CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25A42EC-8D8F-459F-A2FA-230E17E918CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF4C56C-3A98-4CA9-94E4-02888BCCE690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF4C56C-3A98-4CA9-94E4-02888BCCE690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF4C56C-3A98-4CA9-94E4-02888BCCE690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF4C56C-3A98-4CA9-94E4-02888BCCE690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA4A17DE-921E-49F2-BDF2-EDB909FB2DA9}
+	EndGlobalSection
+EndGlobal
